@@ -16,14 +16,17 @@
 * 의미있는 단위, 통홥, 인수 테스트 작성
 * TDD로 개발
 * 대용량 트랙픽 상황으로 가정하여 아키텍쳐 설계  
-* 무중단 배포
 * 멀티 모듈
 * MR 및 commit 작성하기 (master 바로 merge 금지!) 
-* 문서 작성하기
-
+* 웹훅 설정해서 장애 발생시 slack으로 오류 알람 보내기.
+* 무중단 배포 프로세스 구현 (블루-그린, 롤링)
+* 테스트 코드 자동화 구현
+* batch 구현
+* 기술 문서 작성하기
 
 ## 구현 목표
 * caffeine cache + redis cache로  하이브리드 캐시 구현하고 성능 테스트
 * redis lock (스핀락), redisson (pub-sub), redlock 성능 비교
 * kafka 메세지 발행 실패시 복구 기능 구현
 * kafka transaction 설정
+
