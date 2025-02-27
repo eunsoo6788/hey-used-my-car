@@ -1,1 +1,8 @@
 rootProject.name = 'car'
+
+
+include('event')
+include('event:application')
+include('event:batch')
+include('event:message:producer')
+include('event:message:consumer')
