@@ -25,3 +25,5 @@
 ## 구현 목표
 * caffeine cache + redis cache로  하이브리드 캐시 구현하고 성능 테스트
 * redis lock (스핀락), redisson (pub-sub), redlock 성능 비교
+* kafka 메세지 발행 실패시 복구 기능 구현
+* kafka transaction 설정
