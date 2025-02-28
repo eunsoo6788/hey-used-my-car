@@ -26,12 +26,9 @@ repositories {
 dependencies {
 
     implementation project(':event:core')
-    implementation project(':event:infra:cache')
-    implementation project(':event:infra:persistence')
-    implementation project(':event:infra:message:producer')
-//    implementation project(':event:infra:message:consumer')
 
     // spring
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
