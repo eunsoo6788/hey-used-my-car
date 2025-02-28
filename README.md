@@ -27,6 +27,7 @@
 * 테스트 코드 자동화 구현
 * batch 구현
 * 기술 문서 작성하기
+* hexagonal architecture 구현
 
 ## 구현 목표
 * caffeine cache + redis cache로  하이브리드 캐시 구현하고 성능 테스트
