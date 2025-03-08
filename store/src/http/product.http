@@ -1,0 +1,12 @@
+
+### 상품 등록
+POST {{product}}/products
+Content-Type: application/json
+
+{
+  "name": "Hyundai Sonata",
+  "price": 25000000,
+  "quantity": 10,
+  "status": "SELLING",
+  "discountPolicy": "NONE"
+}
